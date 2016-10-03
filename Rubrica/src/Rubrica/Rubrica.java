@@ -20,8 +20,7 @@ public class Rubrica {
 			voci.put(nome+" "+cognome, v); // INSERISCO IN RUBRICA
 			
 			return v;
-		} // FINE METODO!!!!!!!!!!!!!!!!!1
-=======
+		
 		} // FINE METODO 
 
 		
