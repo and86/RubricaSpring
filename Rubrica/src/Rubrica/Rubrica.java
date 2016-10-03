@@ -8,6 +8,8 @@ public class Rubrica {
 		private Map<String,Voce> voci = new TreeMap<String,Voce>(); 
 		
 		
+		
+		//primo metodo
 		public Voce aggiungiVoce(String nome,String cognome,String tel) throws VoceGiaEsiste{
 			
 			if(voci.containsKey(nome+" "+cognome)){
