@@ -9,7 +9,7 @@ public class Rubrica {
 		
 		
 		
-		//primo metodo
+		//primo metodo modificato
 		public Voce aggiungiVoce(String nome,String cognome,String tel) throws VoceGiaEsiste{
 			
 			if(voci.containsKey(nome+" "+cognome)){
