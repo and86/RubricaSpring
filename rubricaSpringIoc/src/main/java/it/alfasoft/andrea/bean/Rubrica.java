@@ -14,13 +14,6 @@ public class Rubrica {
 	public Rubrica() {
 	}
 	
-public void stampaVoci(){
-		
-		for(Voce v : voci){
-		System.out.println(v.getNome()+" "+v.getTelefono());
-		}
-	
-	}
 	
 	public String getNome() {
 		return nome;
@@ -33,6 +26,26 @@ public void stampaVoci(){
 	}
 	public void setVoci(List<Voce> voci) {
 		this.voci = voci;
+	}
+	
+public void stampaVoci(){
+		
+		for(Voce v : voci){
+		System.out.println(v.getNome()+" "+v.getTelefono());
+		}
+	
+	}
+	
+	public Voce getVoceByNome(String nome){
+		
+			Voce vTemp=null;
+			for(Voce v: voci){
+				if(v.getNome().equals(nome)){
+					vTemp=v;
+					System.out.println(v.getNome()+" "+v.getTelefono());
+				}
+			}
+			return vTemp;
 	}
 	
 	

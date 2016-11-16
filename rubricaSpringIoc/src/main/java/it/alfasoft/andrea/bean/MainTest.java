@@ -14,7 +14,9 @@ public class MainTest {
 		 
 		   Rubrica r=(Rubrica) context.getBean("rubrica");
 		   
-		   r.stampaVoci();
+//		   r.stampaVoci();
+		   
+		   r.getVoceByNome("bbb");
 		   
 	}
 

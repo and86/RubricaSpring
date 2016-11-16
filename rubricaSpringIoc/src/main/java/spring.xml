@@ -4,7 +4,7 @@
 
 <beans>
 
-	<!-- creazione del bean / -->
+
 
 	<bean id="rubrica" class="it.alfasoft.andrea.bean.Rubrica">
 
@@ -49,6 +49,8 @@
 		<property name="telefono" value="444"></property>
 
 	</bean>
+	
+	
 	
 
 
